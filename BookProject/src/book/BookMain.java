@@ -45,7 +45,7 @@ public class BookMain {
 						case 6: // 대출현황
 							proc.checkBook();
 							break;
-						case 9: // 종료
+						case 7: // 종료
 							proc.endBook();
 						}
 					} catch (ExitException e) {
@@ -55,7 +55,6 @@ public class BookMain {
 				}
 
 			} else {
-
 				while (true) {
 					try {
 						System.out.println("1.도서목록 2.도서조회 3.대출 4.반납 5.종료");
